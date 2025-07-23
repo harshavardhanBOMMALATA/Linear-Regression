@@ -3,5 +3,27 @@ This project involves learning core Machine Learning concepts, with a special fo
 
 Throughout the project, various aspects of linear regression are covered — including its real-world use cases, advantages and disadvantages, and how it compares to other predictive models. Learners will understand where linear regression performs well, such as when data shows a linear trend, and where it falls short, such as in cases with non-linearity or multiple influencing factors. Visualizations such as scatter plots and regression lines are included to show how the model fits the data and how predictions are made.
 
-This project also explores how linear regression can be interpreted in practical terms, enabling better decision-making and deeper insight into data. By the end of the project, learners will have built a complete linear regression model from scratch, understood its real-time applications, visualized how it works with graphs, and gained the knowledge needed to move on to more advanced machine learning algorithms with confidence.
+**This project also explores how linear regression can be interpreted in practical terms, enabling better decision-making and deeper insight into data. By the end of the project, learners will have built a complete linear regression model from scratch, understood its real-time applications, visualized how it works with graphs, and gained the knowledge needed to move on to more advanced machine learning algorithms with confidence.
+--**
 
+---
+
+### 🛠️ Tools & Technologies Used
+
+* **📘 Jupyter Notebook** – for writing and executing the code step-by-step with explanations
+* **🐍 Python** – core programming language used for building the logic
+* **📂 CSV Files** – dataset used for training and predictions
+* **📊 pandas** – for reading and handling the dataset
+* **📈 matplotlib** – for visualizing the data and regression line
+* **📐 numpy** – for performing numerical and statistical operations 
+
+---
+
+## 📘 Project Overview
+
+**Project Title**: Linear Regression  
+**Level**: Beginner to Advance  
+**Tool**: Jupyter Notebook  
+**Libraries Used**: `pandas`, `numpy`, `matplotlib`, `python3`
+
+---
