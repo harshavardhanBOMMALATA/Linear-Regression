@@ -1,1 +1,7 @@
 # Linear-Regression
+This project involves learning core Machine Learning concepts, with a special focus on Linear Regression, by guiding learners from beginner to advanced levels through clear explanations and real-time application examples. The aim is not just to understand the algorithm theoretically but to apply it in practical scenarios such as predicting house prices based on area. The project takes a hands-on approach where learners manually implement linear regression using Python without relying on machine learning libraries, allowing them to fully grasp the underlying mathematics and logic.
+
+Throughout the project, various aspects of linear regression are covered — including its real-world use cases, advantages and disadvantages, and how it compares to other predictive models. Learners will understand where linear regression performs well, such as when data shows a linear trend, and where it falls short, such as in cases with non-linearity or multiple influencing factors. Visualizations such as scatter plots and regression lines are included to show how the model fits the data and how predictions are made.
+
+This project also explores how linear regression can be interpreted in practical terms, enabling better decision-making and deeper insight into data. By the end of the project, learners will have built a complete linear regression model from scratch, understood its real-time applications, visualized how it works with graphs, and gained the knowledge needed to move on to more advanced machine learning algorithms with confidence.
+
