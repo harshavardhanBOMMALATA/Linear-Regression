@@ -37,3 +37,34 @@ Throughout the project, various aspects of linear regression are covered — inc
 5. Visualize data and model output using **matplotlib**, enabling clear interpretation through graphs and plots.
 
 ---
+
+## 📁 File Structure
+
+1. **Introduction to Machine Learning**
+   A brief overview of what Machine Learning is, where it's used, and why it matters.
+
+2. **Introduction to Linear Regression**
+   Explanation of linear regression as a foundational ML algorithm for prediction.
+
+3. **Working**
+   Step-by-step understanding of how linear regression works with input and output variables.
+
+4. **Mathematical Intuition**
+   Derivation and explanation of the formula: `y = mx + b`, including slope and intercept calculations.
+
+5. **Implementation Without Scikit-Learn**
+   Manual coding of linear regression using `NumPy` and `pandas` to understand internal mechanics.
+
+6. **Implementation With Scikit-Learn**
+   Applying the `LinearRegression` model from `sklearn` to simplify and compare results.
+
+7. **Advantages**
+   Key strengths and ideal use cases of linear regression in real-world scenarios.
+
+8. **Disadvantages**
+   Limitations and situations where linear regression may not be suitable.
+
+9. **Conclusion**
+   Final thoughts, summary of what was learned, and next steps for learners.
+
+---
