@@ -24,6 +24,16 @@ Throughout the project, various aspects of linear regression are covered — inc
 **Project Title**: Linear Regression  
 **Level**: Beginner to Advance  
 **Tool**: Jupyter Notebook  
-**Libraries Used**: `pandas`, `numpy`, `matplotlib`, `python3`
+**Libraries Used**: `pandas`, `numpy`, `matplotlib`
+
+---
+
+## 🎯 Objectives
+
+1. Understand and implement the core concept of **Machine Learning** through hands-on coding.
+2. Perform **Linear Regression** on a real-world dataset to predict values and understand relationships between features.
+3. Apply **manual mathematical techniques** using `NumPy` and `pandas` to compute slope, intercept, and predictions without using machine learning libraries.
+4. Explore and apply **ML libraries** (like `scikit-learn`) to validate and compare manual results with built-in solutions.
+5. Visualize data and model output using **matplotlib**, enabling clear interpretation through graphs and plots.
 
 ---
