@@ -194,3 +194,78 @@ To minimize the error, we use a method called **Gradient Descent** which adjusts
 > “Linear Regression draws a straight line that tries to be as close as possible to all the points, using math to figure out the best angle (slope) and starting point (intercept).”
 
 ---
+
+## 📐 Mathematical Intuition of Linear Regression (with code)
+
+### 🔢 Objective:
+
+We want to find a straight line that best fits the data, which we express as:
+
+$$
+y = m x + c
+$$
+
+Where:
+
+* `x` = input (independent variable)
+* `y` = output (dependent variable)
+* `m` = slope of the line
+* `c` = y-intercept
+
+---
+
+### 💡 Step 1: Mean Squared Error (MSE)
+
+We define **loss** as how far our predicted `y` is from the actual `y`.
+
+```python
+def mean_squared_error(y_true, y_pred):
+    return ((y_true - y_pred) ** 2).mean()
+```
+
+---
+
+### 🧠 Step 2: Try Different `m` and `c` Values
+
+Try out different combinations of slope `m` and intercept `c`, and choose the ones that **minimize the error**.
+
+```python
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+
+# Sample dataset
+x = np.array([1, 2, 3, 4, 5])         # Years of experience
+y = np.array([40000, 50000, 60000, 70000, 80000])  # Salaries
+
+# Try a line: y = m*x + c
+def predict(x, m, c):
+    return m * x + c
+
+# Try random m, c values
+m = 10000
+c = 30000
+y_pred = predict(x, m, c)
+
+# Calculate error
+error = mean_squared_error(y, y_pred)
+print("Mean Squared Error:", error)
+
+# Visualize
+plt.scatter(x, y, color='blue', label='Actual')
+plt.plot(x, y_pred, color='red', label='Predicted Line')
+plt.legend()
+plt.title("Linear Regression - Manual")
+plt.xlabel("Years of Experience")
+plt.ylabel("Salary")
+plt.grid(True)
+plt.show()
+```
+
+---
+
+### 📉 Step 3: Try to Find Best m & c
+
+You can write a simple loop or use gradient descent to automatically **minimize the MSE** and get the best line.
+
+---
