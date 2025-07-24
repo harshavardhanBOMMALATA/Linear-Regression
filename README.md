@@ -269,3 +269,38 @@ plt.show()
 You can write a simple loop or use gradient descent to automatically **minimize the MSE** and get the best line.
 
 ---
+
+## 🔧 Linear Regression using Scikit-Learn
+
+```python
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+from sklearn.linear_model import LinearRegression
+
+# Sample dataset
+x = np.array([1, 2, 3, 4, 5]).reshape(-1, 1)
+y = np.array([40000, 50000, 60000, 70000, 80000])
+
+# Create model and fit
+model = LinearRegression()
+model.fit(x, y)
+
+# Get slope and intercept
+m = model.coef_[0]
+c = model.intercept_
+
+# Predict
+y_pred = model.predict(x)
+
+# Plot
+plt.scatter(x, y, color='blue')
+plt.plot(x, y_pred, color='red')
+plt.xlabel("Years of Experience")
+plt.ylabel("Salary")
+plt.title("Linear Regression using Scikit-Learn")
+plt.grid(True)
+plt.show()
+```
+
+---
