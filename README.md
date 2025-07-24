@@ -304,3 +304,23 @@ plt.show()
 ```
 
 ---
+
+### ✅ Advantages of Linear Regression
+
+1. Easy to implement and understand.
+2. Requires less computational power.
+3. Works well with linearly correlated data.
+4. Provides clear insight into feature impact (slope/intercept).
+5. Good baseline model for regression tasks.
+
+---
+
+### ❌ Disadvantages of Linear Regression
+
+1. Assumes linear relationship (not suitable for non-linear data).
+2. Sensitive to outliers.
+3. Poor performance with multicollinearity.
+4. Can underfit complex problems.
+5. Assumes data is homoscedastic and normally distributed.
+
+---
