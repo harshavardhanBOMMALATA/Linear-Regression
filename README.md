@@ -361,7 +361,7 @@ plt.show()
 
 ## 👤 Author – Harshavardhan Bommalata
 
-This project showcases the core concepts of machine learning with an emphasis on **Linear Regression**, designed for beginners to intermediate learners. It includes both theoretical explanations and practical coding with real-world datasets.
+This project showcases the core concepts of machine learning with an emphasis on **Linear Regression**, designed for beginners to advanced learners. It includes both theoretical explanations and practical coding with real-world datasets.
 
 For more content and updates, feel free to connect with me:
 
