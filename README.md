@@ -100,3 +100,46 @@ When you sign up for Netflix, it collects data like your **gender, language pref
 Ever noticed how Amazon recommends **chargers, cases, and accessories** after you view a mobile phone? That’s Machine Learning predicting what you’re likely to buy next — it's fast, smart, and always learning.
 
 ---
+
+## 📈 Introduction to Linear Regression
+
+Before diving into Linear Regression, it's important to briefly understand the **three main types of Machine Learning models**:
+
+* **Supervised Learning** – The model learns from **labeled data** (e.g., salary with years of experience).
+* **Unsupervised Learning** – The model learns from **unlabeled data** (e.g., clustering customers without knowing their type).
+* **Reinforcement Learning** – The model learns by **interacting with an environment** and improving based on feedback or rewards (e.g., training a game bot).
+
+---
+
+### 🔍 What is Linear Regression?
+
+**Linear Regression** is a **supervised learning algorithm** used to predict a value based on the relationship between independent and dependent variables. It fits a **straight line** (best-fit line) to the data points to make predictions.
+
+In simple terms, we **predict a value using the equation**:
+
+```
+y = m * x + c
+```
+
+Where:
+
+* `y` = predicted output
+* `x` = input feature
+* `m` = slope of the line
+* `c` = intercept
+
+The core idea is: **if the input feature increases, the output value also increases (in a linear fashion).**
+
+---
+
+### 💼 Real-Life Example
+
+Let’s say we’re analyzing a dataset of **experience vs salary** (see `ml_salary.csv`).
+You might observe:
+
+* If someone has **5 years of experience**, they might earn **₹1 lakh/month**.
+* If someone has **0 years of experience**, they will likely earn **less than ₹1 lakh**.
+
+This kind of prediction — based on a clear increasing pattern — is exactly what Linear Regression is designed for.
+
+---
