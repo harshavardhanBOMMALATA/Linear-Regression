@@ -68,3 +68,35 @@ Throughout the project, various aspects of linear regression are covered — inc
    Final thoughts, summary of what was learned, and next steps for learners.
 
 ---
+
+## 📘 Introduction to Machine Learning
+
+**Machine Learning (ML)** is a **subset of Artificial Intelligence (AI)** and a **superset of Deep Learning (DL)**. It enables machines to **learn from data** and make predictions or decisions **without being explicitly programmed** for every possible task.
+
+---
+
+### 🧠 In Simple Terms – Why Machine Learning?
+
+Think of a machine as a baby. At first, it knows nothing — but this baby is not ordinary. It’s like an **“Ekasantagrahi”** — someone who can learn in just one go!
+
+In today’s world, **data is 20x more** than it was 20 years ago. Analyzing this massive data manually would take years, and that’s nearly impossible. That’s when **Machine Learning steps in like a hero**, handling data smartly, spotting patterns, and making predictions — all on its own.
+
+---
+
+### 🚀 Why Do We Need Machine Learning?
+
+* To **reduce human effort** and automate repetitive tasks
+* To **improve the quality and accuracy** of decisions
+* To handle complex problems involving **huge amounts of data**
+
+From **Netflix recommendations** to **Zomato’s suggestions**, from **Amazon product ads** to **Google Maps predicting traffic** — ML is everywhere around us.
+
+---
+
+### 🎯 Real-World Example
+
+When you sign up for Netflix, it collects data like your **gender, language preference**, and **genre interests**. Based on this, it suggests shows tailored just for you.
+
+Ever noticed how Amazon recommends **chargers, cases, and accessories** after you view a mobile phone? That’s Machine Learning predicting what you’re likely to buy next — it's fast, smart, and always learning.
+
+---
