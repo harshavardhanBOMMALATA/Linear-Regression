@@ -324,3 +324,49 @@ plt.show()
 5. Assumes data is homoscedastic and normally distributed.
 
 ---
+
+## 🚀 How to Use
+
+1. **Clone the Repository**
+   Click the button below or use the command below to clone this repository to your local machine:
+
+   ```
+   git clone https://github.com/harshavardhanBOMMALATA/Linear-Regression.git
+   ```
+
+2. **Open the Jupyter Notebook**
+   Launch the project in any Jupyter environment (e.g., VSCode, Jupyter Lab, or Google Colab). The main notebook files include:
+
+   * `linear_regression_without_libraries.ipynb`
+   * `linear_regression_with_sklearn.ipynb`
+
+3. **Understand and Run the Code**
+   The notebooks guide you step-by-step from:
+
+   * Basics of Machine Learning
+   * Manual Linear Regression using only NumPy
+   * Scikit-learn implementation
+   * Real-time data analysis using CSV files
+   * Visualizations using Matplotlib
+
+4. **Explore and Modify**
+   You are encouraged to:
+
+   * Change dataset values
+   * Visualize different trends
+   * Extend the notebooks with more regression types (polynomial, multiple)
+   * Add your own real-world use case
+
+---
+
+## 👤 Author – Harshavardhan Bommalata
+
+This project showcases the core concepts of machine learning with an emphasis on **Linear Regression**, designed for beginners to intermediate learners. It includes both theoretical explanations and practical coding with real-world datasets.
+
+For more content and updates, feel free to connect with me:
+
+* 📸 **Instagram**: [@always\_harsha\_royal](https://www.instagram.com/always_harsha_royal/)
+* 💼 **LinkedIn**: [Harshavardhan Bommalata](https://www.linkedin.com/in/harshavardhan-bommalata-7bb9442b0/)
+* 📧 **Email**: [hbommalata@gmail.com](mailto:hbommalata@gmail.com)
+
+---
